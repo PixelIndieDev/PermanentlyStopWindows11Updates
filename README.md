@@ -1,4 +1,5 @@
 # Permanently Stop Windows Updates (Windows 11)
+![Registry](https://img.shields.io/badge/File-.reg-orange)
 
 Stop Windows 11 automatic updates and prevent forced upgrades (like 25H2) by pausing updates until the year 2199.
 
@@ -27,8 +28,9 @@ _This step is important. Windows must already be in a paused state before runnin
 
 **Run the Registry (.reg) File**
 - Download the .reg file
-- Double-click the downloaded .reg file
-- Click Yes to confirm
+- Double-click the file to run it.
+- Click *Yes* when the User Account Control (UAC) prompt appears.
+- Click *Yes* to confirm you want to add the information to the registry.
 
 **Verify**
 - Reopen Settings → Windows Update
