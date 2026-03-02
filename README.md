@@ -8,14 +8,6 @@ If you are fed up with the problem causing Windows 11 updates like 25H2 and KB50
 ## How does it work?
 This simple .reg file modifies Windows Update  to extend the pause expiry date far into the future. it does this by modifying the date saved in the Windows registry, instead of 7 days in the future, it will be set many years in the future.
 
-## Can I undo the modification?
-Yes, here's how:
-- Open Settings
-- Go to Windows Update
-- Click Resume updates
-
-and that's it. It's that simple
-
 ## How to use
 Follow these steps carefully
 
@@ -38,6 +30,14 @@ _This step is important. Windows must already be in a paused state before runnin
 `Updates paused until 2199`
 
 Done.
+
+## Can I undo the modification?
+Yes, here's how:
+- Open Settings
+- Go to Windows Update
+- Click Resume updates
+
+and that's it. It's that simple
 
 
 ## Keywords
