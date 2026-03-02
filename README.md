@@ -11,20 +11,20 @@ This simple .reg file modifies Windows Update  to extend the pause expiry date f
 ## How to use
 Follow these steps carefully
 
-**Pause Updates First**
+### Pause Updates First
 - Open Settings
 - Go to Windows Update
 - Click Pause updates
 
 _This step is important. Windows must already be in a paused state before running the .reg, otherwise Windows Update will override the values._
 
-**Run the Registry (.reg) File**
+### Run the Registry (.reg) File
 - [Download](https://github.com/PixelIndieDev/PermanentlyStopWindows11Updates/releases/download/V1/WindowsUpdateDisable.reg) the .reg file
 - Double-click the file to run it.
 - Click *Yes* when the User Account Control (UAC) prompt appears.
 - Click *Yes* to confirm you want to add the information to the registry.
 
-**Verify**
+### Verify
 - Reopen Settings → Windows Update
 - You should see:
 `Updates paused until 2199`
