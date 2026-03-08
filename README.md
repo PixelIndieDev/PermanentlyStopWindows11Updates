@@ -3,7 +3,7 @@
 
 Stop Windows 11 automatic updates and prevent forced upgrades (like 25H2) by pausing updates until the year 2199.
 
-If you are fed up with the problem causing Windows 11 updates like 25H2 and KB5074109, you can use this .reg file to pause Windows updates until Microslop (Microsoft) stops release slop updates that mostly cause issues.
+If you are fed up with the problem causing Windows 11 updates like 25H2, KB5077181 and KB5074109, you can use this .reg file to pause Windows updates until Microslop (Microsoft) stops release slop updates that mostly cause issues.
 
 ## How does it work?
 This simple .reg file modifies Windows Update  to extend the pause expiry date far into the future. it does this by modifying the date saved in the Windows registry, instead of 7 days in the future, it will be set many years in the future.
