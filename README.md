@@ -13,6 +13,9 @@ This simple .reg file modifies Windows Update  to extend the pause expiry date f
 > 
 > **Therefore, only pause if you are having issues with the new updates, are scared of the possibility of not being able to use your pc if it updates or if you are in the group that isn't affected by reduced system protection. If you are not in the unaffected group of people, either don't pause it “indefinitely” or unpause as soon as Microsoft fixes everything.**
 
+> [!NOTE]
+> I personally use this method to prevent automatic updates, as each time Windows 11 updates my system, my pc breaks and I've have to restore my system to a restore point.
+
 ## How to use
 Follow these steps carefully
 
